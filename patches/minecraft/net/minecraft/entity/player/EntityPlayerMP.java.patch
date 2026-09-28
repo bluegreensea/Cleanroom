@@ -144,3 +144,11 @@
      }
  
      @Override
+@@ -1309,6 +1344,7 @@
+     @Override
+     public void sendMessage(ITextComponent component)
+     {
++        if (com.cleanroommc.client.chat.suggestion.TabCompleteHooks.isCompleting(this)) return;
+         this.connection.sendPacket(new SPacketChat(component));
+     }
+ 
