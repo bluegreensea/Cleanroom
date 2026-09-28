@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.13.1-alpha] - 2026-09-28
+### New Features
+- [`71db555`](https://github.com/bluegreensea/Cleanroom/commit/71db55594321ceba79372e9aa5d5fd1a34169b37) - make EventBus works without EventSubscriberTransformer *(PR [#618](https://github.com/bluegreensea/Cleanroom/pull/618) by [@ZZZank](https://github.com/ZZZank))*
+
+### Other Changes
+- [`75dc831`](https://github.com/bluegreensea/Cleanroom/commit/75dc831a9860c3ece9281ddf4c877bd394d9e6af) - Update Release.yml *(commit by [@bluegreensea](https://github.com/bluegreensea))*
+- [`5825b19`](https://github.com/bluegreensea/Cleanroom/commit/5825b19b4b1923f7485b79eb0e6f69fc081960ae) - Remove publish to maven *(commit by [@bluegreensea](https://github.com/bluegreensea))*
+- [`c738e2a`](https://github.com/bluegreensea/Cleanroom/commit/c738e2a61b96e430112236098d996cf61aae0009) - Revert "feature(commands): modern suggestions, completions, argument highlighting ([#557](https://github.com/bluegreensea/Cleanroom/pull/557))"
+
+This reverts commit 8d4d83a081ed99249cbbb81cf953d356c3d8c9c7.
+Workaround for https://github.com/CleanroomMC/Cleanroom/issues/640 *(commit by [@bluegreensea](https://github.com/bluegreensea))*
+
+
 ## [0.6.13-alpha] - 2026-09-12
 ### Performance Improvements
 - [`381edb2`](https://github.com/CleanroomMC/Cleanroom/commit/381edb20f7c7c86596a3efe129dc9927da67b7f1) - **asm**: Precheck annotation in SideTransformer *(commit by [@kappa-maintainer](https://github.com/kappa-maintainer))*
@@ -267,3 +280,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [0.6.11-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.10-alpha...0.6.11-alpha
 [0.6.12-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.11-alpha...0.6.12-alpha
 [0.6.13-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.12-alpha...0.6.13-alpha
+[0.6.13.1-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13-alpha...0.6.13.1-alpha
