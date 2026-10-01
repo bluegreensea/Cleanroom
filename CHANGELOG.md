@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.13.2-alpha] - 2026-10-01
+### Other Changes
+- [`4b8be45`](https://github.com/bluegreensea/Cleanroom/commit/4b8be45f19f5df60de974db0d61e600d4455a887) - Revert "feature: make EventBus works without EventSubscriberTransformer ([#618](https://github.com/bluegreensea/Cleanroom/pull/618))"
+
+This reverts commit 71db55594321ceba79372e9aa5d5fd1a34169b37. *(commit by [@bluegreensea](https://github.com/bluegreensea))*
+
+
 ## [0.6.13.1-alpha] - 2026-09-28
 ### New Features
 - [`71db555`](https://github.com/bluegreensea/Cleanroom/commit/71db55594321ceba79372e9aa5d5fd1a34169b37) - make EventBus works without EventSubscriberTransformer *(PR [#618](https://github.com/bluegreensea/Cleanroom/pull/618) by [@ZZZank](https://github.com/ZZZank))*
@@ -281,3 +288,4 @@ Workaround for https://github.com/CleanroomMC/Cleanroom/issues/640 *(commit by [
 [0.6.12-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.11-alpha...0.6.12-alpha
 [0.6.13-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.12-alpha...0.6.13-alpha
 [0.6.13.1-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13-alpha...0.6.13.1-alpha
+[0.6.13.2-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13.1-alpha...0.6.13.2-alpha
