@@ -39,8 +39,7 @@ class EventListenerFactory {
         Object instance
     ) {
         try {
-            var lookup = MethodHandles.privateLookupIn(callback.getDeclaringClass(), LOOKUP);
-            var handle = lookup.unreflect(callback);
+            var handle = LOOKUP.unreflect(callback);
 
             var factoryType = isStatic
                 ? Constants.RETURNS_IT
@@ -48,7 +47,7 @@ class EventListenerFactory {
                 : Constants.RETURNS_IT.insertParameterTypes(0, instance.getClass());
 
             var factoryHandle = LambdaMetafactory.metafactory(
-                lookup,
+                LOOKUP,
                 Constants.METHOD_NAME,
                 factoryType,
                 Constants.METHOD_TYPE,
