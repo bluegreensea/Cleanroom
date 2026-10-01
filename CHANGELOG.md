@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.13.3-alpha] - 2026-10-01
+### Bug Fixes
+- [`f604e09`](https://github.com/bluegreensea/Cleanroom/commit/f604e091f21eecc912dc772188207be6ef9a9fc8) - **command**: drop chat sent to a player while tab-completing their input *(commit by [@Rongmario](https://github.com/Rongmario))*
+- [`9ea3271`](https://github.com/bluegreensea/Cleanroom/commit/9ea32719b5b27234a50274dd018f106fda5df05d) - **chat**: cycle suggestions backward with Shift+Tab and resume only on edits *(commit by [@Rongmario](https://github.com/Rongmario))*
+- [`cdcef7b`](https://github.com/bluegreensea/Cleanroom/commit/cdcef7b3123e53f2fb58d19359bfe5a01d22dcd6) - **chat**: keep Up and Down on history and cycle suggestions with Tab *(commit by [@Rongmario](https://github.com/Rongmario))*
+
+### Chores
+- [`0d33050`](https://github.com/bluegreensea/Cleanroom/commit/0d33050e17e79cf4617c84789c1e79933227d8ad) - **patch**: fix regression in command minecart editor suggestions *(commit by [@Rongmario](https://github.com/Rongmario))*
+- [`3b076ed`](https://github.com/bluegreensea/Cleanroom/commit/3b076edfebcdf9184a998cabfa9d6ecb5fcd8888) - **patch**: fix regression in command block editor suggestions *(commit by [@Rongmario](https://github.com/Rongmario))*
+- [`ca1f8e6`](https://github.com/bluegreensea/Cleanroom/commit/ca1f8e627afc1cd472c174c6818da30e0069bc05) - **patch**: fix regression in chat command suggestions *(commit by [@Rongmario](https://github.com/Rongmario))*
+
+### Other Changes
+- [`da8a38b`](https://github.com/bluegreensea/Cleanroom/commit/da8a38b159573d63ca16c20c620f4273ec661eb3) - Reapply "feature(commands): modern suggestions, completions, argument highlighting ([#557](https://github.com/bluegreensea/Cleanroom/pull/557))"
+
+This reverts commit c738e2a61b96e430112236098d996cf61aae0009. *(commit by [@bluegreensea](https://github.com/bluegreensea))*
+
+
 ## [0.6.13.2-alpha] - 2026-10-01
 ### Other Changes
 - [`4b8be45`](https://github.com/bluegreensea/Cleanroom/commit/4b8be45f19f5df60de974db0d61e600d4455a887) - Revert "feature: make EventBus works without EventSubscriberTransformer ([#618](https://github.com/bluegreensea/Cleanroom/pull/618))"
@@ -289,3 +306,4 @@ Workaround for https://github.com/CleanroomMC/Cleanroom/issues/640 *(commit by [
 [0.6.13-alpha]: https://github.com/CleanroomMC/Cleanroom/compare/0.6.12-alpha...0.6.13-alpha
 [0.6.13.1-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13-alpha...0.6.13.1-alpha
 [0.6.13.2-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13.1-alpha...0.6.13.2-alpha
+[0.6.13.3-alpha]: https://github.com/bluegreensea/Cleanroom/compare/0.6.13.2-alpha...0.6.13.3-alpha
